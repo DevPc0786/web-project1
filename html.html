@@ -1,0 +1,67 @@
+<!DOCTYPE html>  <!-- this is without javascript.so the function of currency convertion 
+will not work
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Product Pricing</title>
+    ><link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Fictional Product</h1>
+        <p>Choose the best plan for you</p>
+    </header>
+
+    <div class="toggle-container">
+        <label>Currency:</label>
+        <input type="radio" name="currency" id="usd" checked> <label for="usd">USD</label>
+        <input type="radio" name="currency" id="eur"> <label for="eur">EUR</label>
+    </div>
+
+    <div class="toggle-container">
+        <label>Units:</label>
+        <input type="radio" name="units" id="metric" checked> <label for="metric">Metric</label>
+        <input type="radio" name="units" id="imperial"> <label for="imperial">Imperial</label>
+    </div>
+
+    <div class="pricing-container">
+        <div class="pricing-card">
+            <h2>Basic</h2>
+            <div class="price" id="basicPrice">$19.99</div>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <button>Select Plan</button>
+        </div>
+
+        <div class="pricing-card">
+            <h2>Standard</h2>
+            <div class="price" id="standardPrice">$39.99</div>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+            <button>Select Plan</button>
+        </div>
+
+        <div class="pricing-card">
+            <h2>Premium</h2>
+            <div class="price" id="premiumPrice">$59.99</div>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+                <li>Feature 5</li>
+            </ul>
+            <button>Select Plan</button>
+        </div>
+    </div>
+</body>
+</html> <!-- so we finished our project here witout javasceipt tho ok! .-->
